@@ -14,7 +14,7 @@
 | 유저수정       | `PUT`    | /users/:id                         |
 | 유저삭제       | `DELETE` | /users/:id                         |
 | 유저조회       | `GET`    | /users/:id                         |
-| 유저목록조회     | `GET`    |                                    |
+| 유저목록조회     | `GET`    | /users                             |
 | 게시글 생성     | `POST`   | /posts                             |
 | 게시글 수정     | `PUT`    | /posts/:postId                     |
 | 게시글 삭제     | `DELETE` | /posts/:postId                     |
