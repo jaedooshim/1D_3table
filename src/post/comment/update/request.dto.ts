@@ -13,5 +13,9 @@ export class CommentUpdateDto {
 export class CommentParamDto {
   @IsNotEmpty()
   @IsNumber()
+  postId: number;
+
+  @IsNotEmpty()
+  @IsNumber()
   commentId: number;
 }
